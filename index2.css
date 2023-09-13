@@ -34,9 +34,38 @@ th {
 }
 
 #totals {
+
     margin-top: 10px;
 }
 
 #capture-button {
     margin-top: 20px;
+}
+/* Pour les écrans de tablette */
+@media (max-width: 768px) {
+
+    input[type="text"],
+    select {
+        width: 100%;
+    }
+
+    /* Ajoutez d'autres styles pour les tablettes ici */
+}
+
+/* Pour les petits écrans de mobile */
+@media (max-width: 480px) {
+
+    input[type="text"],
+    select {
+        width: 100%;
+    }
+
+    /* Ajoutez d'autres styles pour les petits écrans ici */
+    h1 {
+        font-size: 24px;
+    }
+
+    table {
+        font-size: 14px;
+    }
 }
